@@ -1,11 +1,11 @@
 lyk-2014-python
 ===============
 
-Linux Yaz Kampi 2014'de web uygulamasi ve python kursunun notlari
+Linux Yaz Kampı 2014'de web uygulaması ve python kursunun notları.
 
-##### Lutfen eksik ve yanlis gordugunuz seyleri (ozellikle gramerime hic acimayin) ekleyin, degistirin, pull requestleriniz bekliyorum.
+##### Lütfen eksik ve yanlış gördüğünüz şeyleri (özellikle gramerime hiç acımayın) ekleyin, değiştirin, pull requestlerinizi bekliyorum.
 
 
-Day 1-2: networking, IP address, istemci/sunucu, mobil arayuzu, HTML, CSS
+Day 1-2: networking, IP address, istemci/sunucu, mobil arayüzü, HTML, CSS
 
 Day 3: javascript, compiled vs interpreted diller, Git, versiyon kontrol sistemleri
