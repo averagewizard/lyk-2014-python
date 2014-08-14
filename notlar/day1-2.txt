@@ -119,12 +119,3 @@ outline
 
 
 
-
-
-
---------------------------------------------------------------------------
-
-# "istemci yalan soyler."
-# lutfen eksik veya yanslis olanlari ekleyin, pull request lerinizi beklerim.
-# github.com/averagewizard
-# @dlkgenc
