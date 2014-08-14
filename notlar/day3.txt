@@ -182,7 +182,7 @@ senkran (merkezi: VSS, SVN) ve asenkran (dagitik: SVN, Git)
 
 -acik kaynak vs. ozgur yazilim: bir surum GPL ise yeni versiyonu GPL olmak zorunda. GPL sizin kodunuza bir ticari kisitlama koymaz ama creative commons license'i ticari olarak kisitlar. BSD, Mozilla ya da Apache'li bir lisansli birsey yaziyorsaniz, bunlarda GPL kullanamazsiniz. 
 
--Internette buldugunuz her kodu kullanmayin! programlar commercial olmasina ragmen acik olabiliyor. yasal olarak Turkiye icin her ozgur yazilim lisansini kopyalayip icinize koymak yeterli olmuyor. Turkce cevirisini koymak zorundasiniz. hem ingilizcesini hem turkcesini koyamazsiniz. Ceviriyi buradan bulabilirsiniz: http://www.arayan.com/da/gpl_tr.html
+-Internette buldugunuz her kodu kullanmayin! programlar commercial olmasina ragmen acik olabiliyor. yasal olarak Turkiye icin her ozgur yazilim lisansini kopyalayip icinize koymak yeterli olmuyor. Turkce cevirisini koymak zorundasiniz. hem ingilizcesini hem turkcesini koyamazsiniz. Ceviriyi buradan bulabilirsiniz: www.ozgurlisanslar.org.tr
 
 
 
