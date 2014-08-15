@@ -31,6 +31,7 @@ ajax
 ekstra kaynaklar:
 http://support.microsoft.com/kb/164015/tr (turkce)
 http://www.tcpipguide.com/free/t_toc.htm (ingilizce) 
+
 -------------------------------------------------------------------------------
 sayfayi kullaniciyi cekti:
 *ne kadar sure inceledi? sayfa goruntulendiginden sonra sunucu ile bir bag kalmiyor, o zaman cikis saatini nasil anlar? tab e donunce yeni ya da eski kullanici oldugumuzu nasil anlar sunucu => aslinda tamamen tahmine dayaniyor. ayni IP den gelen kac kisi olabilir ki? bir sayfadan digerine gecerken hic bir baglanti olmuyor.
