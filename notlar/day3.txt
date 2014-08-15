@@ -129,7 +129,7 @@ jQueryModal	# aslinda arka taraftaki islemleri durduramaz, sadece basilamaz
 
 
 
-senkran (merkezi: VSS, SVN) ve asenkran (dagitik: SVN, Git)
+senkron (merkezi: VSS, SVN) ve asenkron (dagitik: SVN, Git)
 
 
 -depo/repo: repository kodlarinizin ve takipcilerin bulundugu yer
@@ -152,19 +152,19 @@ senkran (merkezi: VSS, SVN) ve asenkran (dagitik: SVN, Git)
 
 -yama/patch: her bir kucuk sorunu cozdugunuzde git'e commit yapip patchlerinizi aktarabilirsiniz.
 
--pull request: bir degislik yaptiniz ama depo yu degistirme hakkiniz yokdur, ama kendi versiyonunuzu yapmaya devam edebilirsiniz ve bunu asil programciya gonderebilirsiniz.
+-pull request: bir degislik yaptiniz ama depo yu degistirme hakkiniz yoktur, ama kendi versiyonunuzu yapmaya devam edebilirsiniz ve bunu asil programciya gonderebilirsiniz.
 
 -tag/etiket: sik sik etiketlerseniz tam ne zaman ne yaptiniz bulursunuz. bir commit baska bir commite bagliysa o zaman etiket kullanarak tam olarak ne olmus bunu kayit edebilirsiniz ve cesitli yerleri isaretleyebilirsiniz. surum takipci sistemi bunu yapamaz, siz tag katmak zorundasiniz.
 
--branch/dal: bir repoya cok commit yaptiktan sonra bu branch olabilir. git'de kendi branchiniz (ana brans) master'dir. istediginize degistirebilirsiniz ama master birakmak iyi olabilir, cunku daha sonra 'hakan'in master oldugunu aciklamak zorunda kalabilirsiniz. release branch'inizin adi r-1x olabilir mesela. ana dalda baska gelistirme yapmaya devam ederken diyelim hata yaptiniz. release branchinize gecersiniz ve orda bunu cozersiniz, ve bu da r.1.1. olur. yeni surumunuzle eski hatali branchleriniz connect edebilirsiniz . diyelim yeni bir brans cikardiniz, bu da r.2.x. su anda iki farkli release'iniz vardir, oncekisini kullananlari yenisini kullanmaya zorlamak zorunda degilsiniz. bir hata bildirildiginde ana branch de cozersiniz ve orda commitlersiniz. 'backport' etmek yeni cekirdeklerdeki commitleri alip eski surume gondermekdir.
+-branch/dal: bir repoya cok commit yaptiktan sonra bu branch olabilir. git'de kendi branchiniz (ana branch - dal) master'dir. istediginize degistirebilirsiniz ama master birakmak iyi olabilir, cunku daha sonra 'hakan'in master oldugunu aciklamak zorunda kalabilirsiniz. release branch'inizin adi r-1x olabilir mesela. ana dalda baska gelistirme yapmaya devam ederken diyelim hata yaptiniz. release branchinize gecersiniz ve orda bunu cozersiniz, ve bu da r.1.1. olur. yeni surumunuzle eski hatali branchleriniz connect edebilirsiniz . diyelim yeni bir branch cikardiniz, bu da r.2.x. su anda iki farkli release'iniz vardir, oncekisini kullananlari yenisini kullanmaya zorlamak zorunda degilsiniz. bir hata bildirildiginde ana branch de cozersiniz ve orda commitlersiniz. 'backport' etmek yeni cekirdeklerdeki commitleri alip eski surume gondermekdir.
 
--feature branch: bos zamaninizda yeni bir ozellikde calismak isterseniz bir feature branch acarsiniz ve bunda calisirsiniz, sonra da bunlari merge edebilirsiniz. master branch derlenemez o yuzden baska branch de yaparsiniz bunu. buyuk bir ekipte calisiyorsaniz oyle master branch e commit yapamazsiniz. is bitince master brance e commit yap dersiniz. 'tamam oldu bitti' denilen branch'in cok kalite kontrol'den gecmesi gerekir ve bu standartlara uymazsa master branche derlenemez. bu is surum yoneticisinin kararina baglidir. kod kalitesinden gecmek zorundasiniz. surum yoneticisi kodunuz cirkin diye reject edebilir yani.
+-feature branch: bos zamaninizda yeni bir ozellikde calismak isterseniz bir feature branch acarsiniz ve bunda calisirsiniz, sonra da bunlari merge edebilirsiniz. master branch derlenemez o yuzden baska branch de yaparsiniz bunu. buyuk bir ekipte calisiyorsaniz oyle master branch e commit yapamazsiniz. is bitince master brance e commit yap dersiniz. 'tamam oldu bitti' denilen branch'in cok kaliteli kontrol'den gecmesi gerekir ve bu standartlara uymazsa master branche derlenemez. bu is surum yoneticisinin kararina baglidir. kod kalitesinden gecmek zorundasiniz. surum yoneticisi kodunuz cirkin diye reject edebilir yani.
 
--teknik ve pazarlama isimleme vardir: mesela java hala 1.8 dir, ama ya da pazarlama icin adlandirilanlar vardir, mesela windows 8. temiz ve yeni olur boylece. bu da pazarlamacinin isidir. 
+-teknik ve pazarlama gibi iki türlü isimleme vardir: mesela java hala 1.8 dir, birde pazarlama icin adlandirilanlar vardir, mesela windows 8. temiz ve yeni olur boylece. bu da pazarlamacinin isidir. 
 
--adlandirilma: 1. major surum, 2. minor, 3. bugfix'dir. ayni zamanda geri uyum numarasidir. sadece hata temizlemissen bugfix numarasini duzeltirsiniz. minor numara yeni ozellik numarasidir, fakat program kurulumunda kafa agritmaz. major surum degismesi (mesela 1.0.0'dan 2.0.0'ye) a atlayan programlarda ciddi degisiklikler vardir. diyelim ki tum navigasyon sistemini degistirdiniz, ama 1'in uzerine koydugunuzda calisiyor diye bunu minor degisik diye pazarlamayamazsiniz. 
+-adlandirilma: 1. major surum, 2. minor, 3. bugfix'dir. ayni zamanda geri uyum numarasidir. sadece hata temizlemissen bugfix numarasini duzeltirsiniz. minor numara yeni ozellik numarasidir, fakat program kurulumunda kafa agritmaz. major surum degismesi, örneğin 1.0.0'dan 2.0.0’a atlayan programlarda ciddi degisiklikler vardir. diyelim ki tum navigasyon sistemini degistirdiniz, ama 1'in uzerine koydugunuzda calisiyor diye bunu minor degisiklik diye pazarlamayamazsiniz. 
 
--beta, alpha surum adlari: alpha da sizin asla gormeminiz seylerdir, sadece programcilarin gorucegi seylerdir. beta topluma acilmisdir, yeni ozellikler gelebilir ama genel olarak dogru calsimasini beklersiniz. alpha da calismayan cok sey beklemeniz gerekir. son surum adayindan sonra hic commit olmayip sadece surumun versiyonunun degistirmesini beklersiniz, 1.0.1.alfa gibi. son surumde final diye isaretlenilir. final ciktiktan sonra nadiren hata gelir ve gelen hata hizlica cozumlunelir cunku bunlar genelde beta da olmasi gerekir. 
+-beta, alpha surum adlari: alpha da sizin asla gormediginiz seylerdir, sadece programcilarin gorucegi seylerdir. beta topluma acilmisdir, yeni ozellikler gelebilir ama genel olarak dogru calismasini beklersiniz. alpha da calismayan bircok sey olmasini beklemeniz gerekir. son surum adayindan sonra hic commit olmayip sadece surumun versiyonunun degistirmesini beklersiniz, 1.0.1.alfa gibi. son surumde final diye isaretlenilir. final ciktiktan sonra nadiren hata gelir ve gelen hata hizlica cozumlunelir cunku bunlar genelde beta da olmasi gerekir. 
 
 ### tum bunlar merkezi surumler icin gecerlidir!
 
@@ -174,7 +174,7 @@ senkran (merkezi: VSS, SVN) ve asenkran (dagitik: SVN, Git)
 
 
 
--clone/fork: catallama icin surum takip sistemi kullanmak zorunda degilsiniz. birseyin kopyasini alirsiniz ve yeni bir depo acarsiniz, bir alakasi kalmaz originali ile. forku kullanmak icin gercekten tek bir neden vardirdir: master branch i yapanla yapmak istedikleriniz ortusmuyordur, anlasamiyorsunuzdur, o yuzden forklanir. yoksa master branch de ki update leri takip etmek istersiniz, o zaman kendi branchinizi yaratirsiniz forklamak yerine. mesela: at&t, linux cok kullanilmaya baslayinca unix'i forklayip para kazanmak icin kendi versiyonunu yaratir. at&t'in 5. surumden ote cikardigi hicbirseyi kullanamzsiniz, satamazsiniz. berkeley universitesi ile davali olup, universite kazanir ve sistem 5 noktasinda bir fork olusur, BSD Linux baska bir yere, ve at&t X versiyonu baska bir yere gider.
+-clone/fork: catallama icin surum takip sistemi kullanmak zorunda degilsiniz. birseyin kopyasini alirsiniz ve yeni bir depo acarsiniz, bir alakasi kalmaz originali ile. forku kullanmak icin gercekten tek bir neden vardir: master branch’i yapanla yapmak istedikleriniz ortusmuyordur, anlasamiyorsunuzdur, o yuzden forklanir. yoksa master branch de ki update leri takip etmek istersiniz, o zaman kendi branchinizi yaratirsiniz forklamak yerine. mesela: at&t, linux cok kullanilmaya baslayinca unix'i forklayip para kazanmak icin kendi versiyonunu yaratir. at&t'in 5. surumden ote cikardigi hicbirseyi kullanamazsiniz, satamazsiniz. berkeley universitesi ile aralarinda nir dava olup, universite kazanir ve sistem 5 noktasinda bir fork olusur, BSD Linux baska bir yere, ve at&t X versiyonu baska bir yere gider.
 
 -dagitik surum sisteminde her sey fork'dur. git'le yapabileceginiz herseyi yeni fork ettiginiz surumle de yapabilirsiniz. eger ustunde cok calistiysaniz ve bunu orijinale gondermek istiyorsaniz, bunu push edebilirsiniz (ama erismeniz gerekir). erisemezsiniz posta gonderirsiniz, push request yaparsiniz. eger orijinal surumu siz yazdiysaniz ve bu yeni degisikleri baskasindan isterseniz sizde pull yapabilirsinz. gelen push request'leri kabul etmek zorunda degilsiniz. o yuzden bir cok farkli linux dagitimi vardir. 
 
@@ -182,7 +182,7 @@ senkran (merkezi: VSS, SVN) ve asenkran (dagitik: SVN, Git)
 
 -acik kaynak vs. ozgur yazilim: bir surum GPL ise yeni versiyonu GPL olmak zorunda. GPL sizin kodunuza bir ticari kisitlama koymaz ama creative commons license'i ticari olarak kisitlar. BSD, Mozilla ya da Apache'li bir lisansli birsey yaziyorsaniz, bunlarda GPL kullanamazsiniz. 
 
--Internette buldugunuz her kodu kullanmayin! programlar commercial olmasina ragmen acik olabiliyor. yasal olarak Turkiye icin her ozgur yazilim lisansini kopyalayip icinize koymak yeterli olmuyor. Turkce cevirisini koymak zorundasiniz. hem ingilizcesini hem turkcesini koyamazsiniz. Ceviriyi buradan bulabilirsiniz: www.ozgurlisanslar.org.tr
+-Internette buldugunuz her kodu kullanmayin! programlar commercial olmasina ragmen acik olabiliyor. yasal olarak Turkiye icin her ozgur yazilim lisansini kopyalayip icine koymaniz yeterli olmuyor. Turkce cevirisini koymak zorundasiniz. hem ingilizcesini hem turkcesini koyamazsiniz. Ceviriyi buradan bulabilirsiniz: www.ozgurlisanslar.org.tr
 
 
 
