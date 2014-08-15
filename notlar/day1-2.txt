@@ -36,6 +36,10 @@ python
 ASP
 ajax
 
+
+ekstra kaynaklar:
+http://support.microsoft.com/kb/164015/tr (turkce)
+http://www.tcpipguide.com/free/t_toc.htm (ingilizce)
 -------------------------------------------------------------------------------
 
 sayfayi kullaniciyi cekti:
