@@ -120,8 +120,10 @@ Modal(ity)	# arka tarafdaki islemleri durdurur
 
 jQueryModal	# aslinda arka taraftaki islemleri durduramaz, sadece basilamaz
 		# arka tarafda js calismaya devam ediyor
-
-					
+		
+		
+ekstra kaynak:
+http://erkantaylan.wordpress.com/2013/10/10/derlenen-vs-yorumlanan-diller/ (turkce)
 -----------------------------------------------------------------------------------------------
 
 
@@ -168,6 +170,9 @@ senkron (merkezi: VSS, SVN) ve asenkron (dagitik: SVN, Git)
 
 ### tum bunlar merkezi surumler icin gecerlidir!
 
+
+ekstra kaynak:
+http://git-scm.com/book/tr/Baslangic   (tr versiyonu. ingilizcesini okudum, gercekten harika bir kitap)
 ---------------------------------------------------------------------------------------------
 				
 				DAGITIK SURUM TAKIP SISTEMLERI
