@@ -11,7 +11,7 @@ LYK2014 PYTHON/DJANGO web 2 DAY ONE-TWO 11/12-08-14
 *IP'den info ogrenmek icin: host, dig, dnslookup
 *obur tarafta hayat var mi: ping
 *baska bir bilgisayar a nasil baglanilir? IP ye baglanirken ayrica bir port a baglanmak isitiyorum diyebiliyorsunuz.
-*broadcast adresi: bir mesaj gonderince her bilgisayar a gider. broadcast yapinca bir paket agda herkez tarafindan gorulur
+*broadcast adresi: bir mesaj gonderince her bilgisayar a gider. broadcast yapinca paket aga bagli tum aygitlara iletilir.
 *web uzerinde yapilan habarlesmeleri sifrelemek isterseniz SSL kullanirsiniz. http:// kullanirken port 80 den girersiniz, ama https:// den baglanirken port 443 den girersiniz.
 *karsisindakinin soyledigi kisi oldugunu nasil anlarsiniz? SSL sertifikasi ile elimizdeki bilge ayni mi diye tarayaci bakiyor. Imzanin guvenli olup olmadigini tarayaci 'guvenilir liste' ye bakip anlar. Eski bir tarayaci yeni cikan sertifikalarin cogunu tanimayacaktir => guncellemek gerekir. Sertifika sadece kimlik dogrulamasi yapar, sifrelemeyi daha iyi yapmaz.
 *makina nasil IP ye gider?
@@ -47,8 +47,7 @@ Mobil vs Desktop
 her bir site sizin yaptiklariniz uzerine data alir ve website den website ye gidebilir, bu yuzd en baska yerlere gittiginizde ayni veya benzer urunleri size satmaya calisirlar (ex: amazon, google, fb)
 * mobil vs. desktop
 site icin ayri mobil arayuzu yaptirildiysa mobil bunu gorur. bilgisayardan mi cepten mi gelir
-bu bilgiyi nasil bulursunuz? mesela user-agent switcher kullanarak firefox ya da baska tarayacil
-rda farkli gosterebilirsiniz.
+bu bilgiyi nasil bulursunuz? mesela user-agent switcher kullanarak firefox ya da baska tarayacilarda farkli gosterebilirsiniz.
 user-agent switcher kullanma avantajlari:
 1-tether yapmak icin bilgisayarinizda bunu kullanarak mobil internet sunucunuzu kandirabilirsiniz.
 2-website dizayn ederken mobil de nasil gozuktugunu gormek icin kullanabilirsiniz
