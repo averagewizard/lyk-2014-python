@@ -1,13 +1,12 @@
-## LYK2014	 PYTHON/DJANGO		16/08/14
+## LYK2016	 PYTHON/DJANGO		16/08/14
 
 -------------
 
-
--Bir python projesine baslarken bunlari kuymak iyi olabilir:
-	1-virtualenv
-	2-pycharm
-	3-django
--Virtualenv kullanarak bir cok problemder kacinabilirsiniz. Oncelikle, eski bir django versiyonunda yaptiginiz bir proje yenisi yuklediginizde bozulur. Sanal environment kullanarak bunu onlemis olursunuz. Ayrica daha guvenlidir: sanal bir ortamda pip kullanarak yukleyeceginiz programlar sudo kullanmadiginiz icin kotu amacli bir paket oldugu durumunda sisteminizi mahvetmez. 
+Bir python projesine baslarken bunlari kuymak iyi olabilir:
+	* virtualenv
+	* pycharm
+	* django
+Virtualenv kullanarak bir cok problemder kacinabilirsiniz. Oncelikle, eski bir django versiyonunda yaptiginiz bir proje yenisi yuklediginizde bozulur. Sanal environment kullanarak bunu onlemis olursunuz. Ayrica daha guvenlidir: sanal bir ortamda pip kullanarak yukleyeceginiz programlar sudo kullanmadiginiz icin kotu amacli bir paket oldugu durumunda sisteminizi mahvetmez. 
 
 ```python
 
@@ -82,7 +81,7 @@ benim.sorted() 			// liste siralar ama eski haline erisebiliriz
 --------------
 			### DICTIONARY 
 
--listelere benzer, ama her item'in bir karsiligi vardir.'
+listelere benzer, ama her itemin bir karsiligi vardir.
 
 ```python	
 	biseyler = { "apple":"elma",
@@ -139,13 +138,13 @@ def add_course(self_course_name):
 				### KEYWORDS
 
 
--instance: siniftan uretilmis nesne, ornek
--attribute: nesnelerin (orneklerin) sahip oldugu degiskenler
--method: nesnelerin (orneklerin) fonksiyonlari
--class: orneklerin nasil uretildigini tanimlayan teorik daginak
--function: belirli isleri yapmak icin yazilmis harici kod blocklari
--mutable variables: icerigi degisterilebilir degiskenler
--immutable variables: icerigi degistirilemeyen degiskenler
--inheritance: bir sinifin tum ozelliklerini iceren yeni bir sinif turetme islemi
--multiple inheritence: birden fazla sinifin ozelliklerini iceren yeni bir sinif turetme islevi
--composition: bir sinifin orneklerini bir baska sinifin ozelligi olarak kullanma teknigi 
+* instance: siniftan uretilmis nesne, ornek
+* attribute: nesnelerin (orneklerin) sahip oldugu degiskenler
+* method: nesnelerin (orneklerin) fonksiyonlari
+* class: orneklerin nasil uretildigini tanimlayan teorik daginak
+* function: belirli isleri yapmak icin yazilmis harici kod blocklari
+* mutable variables: icerigi degisterilebilir degiskenler
+* immutable variables: icerigi degistirilemeyen degiskenler
+* inheritance: bir sinifin tum ozelliklerini iceren yeni bir sinif turetme islemi
+* multiple inheritence: birden fazla sinifin ozelliklerini iceren yeni bir sinif turetme islevi
+* composition: bir sinifin orneklerini bir baska sinifin ozelligi olarak kullanma teknigi 
