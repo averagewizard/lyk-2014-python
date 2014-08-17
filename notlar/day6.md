@@ -2,10 +2,15 @@
 
 -------------
 
-Bir python projesine baslarken bunlari kuymak iyi olabilir:
+Bir python projesine baslarken bunlari kuymak iyi olabilir:    
+
+
 	* virtualenv
 	* pycharm
-	* django
+	* django    
+
+
+
 Virtualenv kullanarak bir cok problemder kacinabilirsiniz. Oncelikle, eski bir django versiyonunda yaptiginiz bir proje yenisi yuklediginizde bozulur. Sanal environment kullanarak bunu onlemis olursunuz. Ayrica daha guvenlidir: sanal bir ortamda pip kullanarak yukleyeceginiz programlar sudo kullanmadiginiz icin kotu amacli bir paket oldugu durumunda sisteminizi mahvetmez. 
 
 ```python
@@ -51,7 +56,13 @@ while <kosul>:
 
 ```
 ------------
+
+
+
 				### LISTELER
+
+
+
 ```python
 
 benim_listem = [] 		// bos bir liste
@@ -79,7 +90,12 @@ benim.sorted() 			// liste siralar ama eski haline erisebiliriz
 ```
 
 --------------
+
+
+
 			### DICTIONARY 
+
+
 
 listelere benzer, ama her itemin bir karsiligi vardir.
 
@@ -110,7 +126,12 @@ listelere benzer, ama her itemin bir karsiligi vardir.
 ```
 ------------
 
+
+
 				### OBJECT ORIENTED PROGRAMMING
+
+
+
 ```python
 
 1, "selam", [] 		// bunlar bir obje ve ozellikleri var
@@ -135,7 +156,10 @@ def add_course(self_course_name):
 ```
 
 -------------------------
+
+
 				### KEYWORDS
+
 
 
 * instance: siniftan uretilmis nesne, ornek
