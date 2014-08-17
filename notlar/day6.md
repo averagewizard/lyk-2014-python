@@ -54,14 +54,8 @@ else:
 while <kosul>:
 	"Dogruyu yap"
 
-```
-------------
-
-
-
-				### LISTELER     
-
-
+```	
+#### LISTELER     
 
 ```python
 
@@ -88,15 +82,9 @@ benim.sort()			// liste siralir ve eski haline erisemeyiz
 benim.sorted() 			// liste siralar ama eski haline erisebiliriz
 
 ```
-
---------------
-
-
-
-			<h3>DICTIONARY</h3>     
-
-
-
+--------
+#### DICTIONARY  
+				
 listelere benzer, ama her itemin bir karsiligi vardir.
 
 ```python	
@@ -127,8 +115,7 @@ listelere benzer, ama her itemin bir karsiligi vardir.
 ------------
 
 
-
-				### OBJECT ORIENTED PROGRAMMING
+#### OBJECT ORIENTED PROGRAMMING
 
 
 
@@ -157,8 +144,7 @@ def add_course(self_course_name):
 
 -------------------------
 
-
-				### KEYWORDS
+#### KEYWORDS
 
 
 
