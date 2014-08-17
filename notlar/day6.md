@@ -22,7 +22,6 @@ print "ilk %d, ikinci %d" % (25, 36)
 print 15 > 6 # True
 
 ```
------------
 ```python
 
 %r = raw
@@ -30,7 +29,6 @@ print 15 > 6 # True
 %d = decimal
 
 ```
-------------
 ```python
 
 if <kosul>:
@@ -39,7 +37,6 @@ else:
 	"yanlis"
 ```
 
-------------------
 
 ```python
 
@@ -48,7 +45,6 @@ else:
 
 ```
 
------------
 ```python
 
 while <kosul>:
