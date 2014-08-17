@@ -59,7 +59,7 @@ while <kosul>:
 
 
 
-				### LISTELER
+				### LISTELER     
 
 
 
@@ -93,7 +93,7 @@ benim.sorted() 			// liste siralar ama eski haline erisebiliriz
 
 
 
-			### DICTIONARY 
+			<h3>DICTIONARY</h3>     
 
 
 
