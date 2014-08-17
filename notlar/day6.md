@@ -4,11 +4,12 @@
 
 
 -Bir python projesine baslarken bunlari kuymak iyi olabilir:
-	-virtualenv
-	-pycharm
-	-django
+	1-virtualenv
+	2-pycharm
+	3-django
 -Virtualenv kullanarak bir cok problemder kacinabilirsiniz. Oncelikle, eski bir django versiyonunda yaptiginiz bir proje yenisi yuklediginizde bozulur. Sanal environment kullanarak bunu onlemis olursunuz. Ayrica daha guvenlidir: sanal bir ortamda pip kullanarak yukleyeceginiz programlar sudo kullanmadiginiz icin kotu amacli bir paket oldugu durumunda sisteminizi mahvetmez. 
 
+```python
 
 print "string" # string
 print "string1", "string2" # string1 string 2
@@ -16,31 +17,43 @@ print "%d" % 15  # 15
 print "ilk %d, ikinci %d" % (25, 36)
 print 15 > 6 # True
 
+```
 -----------
+```python
 
 %r = raw
 %s = string
 %d = decimal
 
+```
 ------------
+```python
 
 if <kosul>:
 	"dogru"
 else:
 	"yanlis"
+```
+
 ------------------
+
+```python
 
 \n = new line char.
 \t = new tab char.
 
+```
+
 -----------
+```python
 
 while <kosul>:
 	"Dogruyu yap"
 
-
+```
 ------------
-listeler
+				### LISTELER
+```python
 
 benim_listem = [] 		// bos bir liste
 benim_listem = list()		// ayni sey, ama ustekkini kullanmak daha dogru
@@ -63,6 +76,8 @@ benim.remove			// eleman cikarir ve geri getirmez
 benim.reverse() 		// listeyi tersten getirir
 benim.sort()			// liste siralir ve eski haline erisemeyiz
 benim.sorted() 			// liste siralar ama eski haline erisebiliriz
+
+```
 
 --------------
 			### DICTIONARY 
@@ -97,7 +112,7 @@ benim.sorted() 			// liste siralar ama eski haline erisebiliriz
 ------------
 
 				### OBJECT ORIENTED PROGRAMMING
-
+```python
 
 1, "selam", [] 		// bunlar bir obje ve ozellikleri var
 
@@ -118,6 +133,7 @@ ali = Student("ali", 22)
 def add_course(self_course_name):
 	self.courses.append(course_name)
 	
+```
 
 -------------------------
 				### KEYWORDS
