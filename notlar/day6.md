@@ -154,3 +154,28 @@ def add_course(self_course_name):
 * inheritance: bir sinifin tum ozelliklerini iceren yeni bir sinif turetme islemi
 * multiple inheritence: birden fazla sinifin ozelliklerini iceren yeni bir sinif turetme islevi
 * composition: bir sinifin orneklerini bir baska sinifin ozelligi olarak kullanma teknigi 
+
+
+
+#### Neden Django?
+
+* Python uzerinde calismasi
+* DRY (Kendini tekrar etme!)
+* Pluggable (tak calisir) uygulamalar
+* Test edilebilirlik
+* Cok iyi bir topluluk
+
+####### Avantajlari:
+
+* Built-in admin uygulanmasi
+* ORM
+* GEODjango
+* Internationalization (i18n)
+
+
+###### Uygulamalar:
+
+* Bir django projesi farkli parcalardan olusur.
+* Bir kismi sizin yazdiginiz, kir kismi varsayilan olarak gelir, oburleri de 3. parti den gelir
+* model (veritabani katmaniyla iletisim saglar), view (kullanici etkilesiminin oldugu ) ve template (html yanitlari)
+
